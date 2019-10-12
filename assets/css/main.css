@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#view {
+    height: 50px;
+}
+
+
+.gr-a {
+    background-color: blue;
+    color: white;
+}
+
+.gr-b {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.gr-c {
+    background-color: yellow;
+    color: black;
+}
+
+#calc {
+    margin-top: 20vh;
+    width: 250px;
+}
+
+.button {
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid burlywood;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.tag {
+    padding: 10px;
+    margin: auto;
+}

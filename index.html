@@ -1,0 +1,52 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+            <!-- or  -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="assets/css/main.css">
+            <script src="assets/js/main.js"></script>
+        <title>
+            calculator | ver 1.0
+        </title>
+    </head>
+    <body>
+        <div class="container" id="calc">
+            <h2 class="d-flex justify-content-center" >🏴 calculator</h2>
+            <div class="row">
+                <input class="col" id="view" type="text">
+            </div>
+            
+            <div class="row">
+                <div onclick='clean()' class="button gr-a col d-flex align-items-center justify-content-center">C</div>
+                <div onclick="minusPlus()" class="button gr-a col d-flex align-items-center justify-content-center">+/-</div>
+                <div onclick='del()' class="button gr-a col d-flex align-items-center justify-content-center">del</div>
+                <div onclick='input("/")' class="button gr-b col d-flex align-items-center justify-content-center">/</div>
+            </div>
+            <div class="row">
+                <div onclick='input("7")' class="button gr-a col d-flex align-items-center justify-content-center">7</div>
+                <div onclick='input("8")' class="button gr-a col d-flex align-items-center justify-content-center">8</div>
+                <div onclick='input("9")' class="button gr-a col d-flex align-items-center justify-content-center">9</div>
+                <div onclick='input("*")' class="button gr-b col d-flex align-items-center justify-content-center">*</div>
+            </div>
+            <div class="row">
+                <div onclick='input("4")' class="button gr-a col d-flex align-items-center justify-content-center">4</div>
+                <div onclick='input("5")' class="button gr-a col d-flex align-items-center justify-content-center">5</div>
+                <div onclick='input("6")' class="button gr-a col d-flex align-items-center justify-content-center">6</div>
+                <div onclick='input("-")' class="button gr-b col d-flex align-items-center justify-content-center">-</div>
+            </div>
+            <div class="row">
+                <div onclick='input("1")' class="button gr-a col d-flex align-items-center justify-content-center">1</div>
+                <div onclick='input("2")' class="button gr-a col d-flex align-items-center justify-content-center">2</div>
+                <div onclick='input("3")' class="button gr-a col d-flex align-items-center justify-content-center">3</div>
+                <div onclick='input("+")' class="button gr-b col d-flex align-items-center justify-content-center">+</div>
+            </div>
+            <div class="row">
+                <div onclick='input("0")' class="button gr-a col d-flex align-items-center justify-content-center">0</div>
+                <div onclick='input(".")' class="button gr-a col d-flex align-items-center justify-content-center">.</div>
+                <div class="button gr-a col d-flex align-items-center justify-content-center">° ͜ʖ ͡°</div>
+                <div onclick='equal()' class="button gr-c col d-flex align-items-center justify-content-center">=</div>
+            </div>
+            <p class="tag">👨‍🔧 prod. by <a target="_block" href="https://github.com/dm1tryG">@dm1tryG</a></p>
+        </div>
+    </body>
+</html>
